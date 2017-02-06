@@ -10,4 +10,8 @@ class BasicWeapon {
     BasicWeapon(int DAMAGE) {
         this.DAMAGE = DAMAGE;
     }
+
+    BasicWeapon() {
+        DAMAGE = 0;
+    }
 }

@@ -8,13 +8,15 @@ import java.io.*;
 public class TheChosenOneAxe extends SimpleAxe implements Weapon {
 
     TheChosenOneAxe() {
-        String filename = "thechosenone.txt";
+        String filename = "conf/thechosenone.txt";
         String firstline = null;
         String secondline = null;
         String thirdline = null;
         int linenumber = 3;
 
         try {
+
+            //file reading learned from stackoverflow.com
             FileReader fileReader = new FileReader(filename);
             BufferedReader bufferedReader = new BufferedReader(fileReader);
 
@@ -34,6 +36,7 @@ public class TheChosenOneAxe extends SimpleAxe implements Weapon {
                 DAMAGE = 1;
 
             bufferedReader.close();
+            fileReader.close();
         }
         catch(FileNotFoundException ex) {
             System.out.println(

@@ -18,7 +18,7 @@ public class SimpleAxe extends BasicWeapon implements Weapon {
     public int hit(int armor) {
         int damage = DAMAGE;
 
-        if (armor <= 20)
+        if (armor < 20)
             return damage;
 
         damage = DAMAGE - armor;
