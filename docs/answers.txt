@@ -1,0 +1,29 @@
+(a) Counting objects: 18, done.
+    Delta compression using up to 4 threads.
+    Compressing objects: 100% (11/11), done.
+    Writing objects: 100% (18/18), 3.34 KiB | 0 bytes/s, done.
+    Total 18 (delta 0), reused 0 (delta 0)
+    To https://github.com/Alexsuperfly/GitAssignment.git
+       d424ce7..2e6c40f  master -> master
+
+(b) 12 commits
+    git log command
+
+(c) .gitignore was last modified on  Thu Sep 15 10:29:34 2016
+    git log .gitignore command
+
+(d) RoleGame.java       modified  2x
+    BasicWeapon.java    modified  1x
+    Sword.java          modified  1x
+    Weapon.java         modified  1x
+    WeaponFactory.java  modified  1x
+    git log <path_to_file> command
+
+(e) Git log will print out commit logs while git status will show the
+    status of the current working repository in relation to the remote one
+
+(f) git log RoleGame.java
+
+(g) git log --grep="file"
+
+(h) git log --author="Alice" --after="2016-09-01" --before="2016-09-16"
